@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    viewport-fit=cover">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bug Tracker</title>
+
+    <!-- Bootstrap 4.5 CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- Style CSS -->
+	<link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <!--Top Bar-->
+    <div class="top-bar">
+        <div class="container">
+            <div class="col-12">
+                <p>
+                  <a href="tel:+3608782553">Contact Me at 360-878-2553</a>
+                  <a href="mailto:birdlkjlkj123@gmail.com">Or birdlkjlkj123@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--End Top Bar-->
+
+    <!--Navigation-->
+
+    <nav class="navbar bg-light navbar-light navbar-expand-lg">
+      <div class="container">
+
+          <button class="nabvar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav sm-auto text-center">
+              <li class="nav-item"><a href="Main.html" class="nav-link active">Home</a></li>
+              <li class="nav-item"><a href="IssueReport.html" class="nav-link">Report An Issue</a></li>
+              <li class="nav-item"><a href="SignIn.html" class="nav-link">Bug Tracker</a></li>
+              <li class="nav-item"><a href="Engineering.html" class="nav-link">Engineering Background</a></li>
+            </ul>
+          </div>
+
+      </div>
+    </nav>
+
+    <!--Second Engineering Navbar-->
+
+    <nav class="navbar bg-light navbar-light navbar-expand-lg">
+        <div class="container">
+  
+            <button class="nabvar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav sm-auto text-center">
+                <li class="nav-item"><a href="Programming.html" class="nav-link active">Programming Competition</a></li>
+              </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav sm-auto text-center">
+                <li class="nav-item"><a href="CreditCard.html" class="nav-link active">Credit Card Data Application</a></li>
+              </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav sm-auto text-center">
+                <li class="nav-item"><a href="FruitTree.html" class="nav-link active">Fruit Tree Project Proposal</a></li>
+              </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav sm-auto text-center">
+                <li class="nav-item"><a href="Solidworks.html" class="nav-link active">CAD Modeling and Certification</a></li>
+              </ul>
+            </div>
+  
+        </div>
+    </nav>
+
+    <!--Image-->
+    <img src="Graph.png" style="max-width: 100%;">
+
+    <!--Explain Code-->
+    <h1 style="margin: 5%;">Application Description</h1>
+    <p style="margin: 5%;">Above you can see a screenshot of the application I developed to parse, sort, and analyze credit card data. The user interface is limited but the application takes complicated credit card data in CSV file format and prints it in an easy to anaylze way.</p>
+
+    <div class="row">
+        <div class="col-6">
+            <figure style="text-align: left; margin: 5%;">
+                <figcaption>Pre-Formatted</figcaption>
+                <pre>
+                <code class="" contenteditable spellcheck="false">
+    "XXXXXX2798",8/13/2020,,"TACO TIME #20 OLYMPIA WA US POS  080227 ************0199 0000FQYZ",18.69,,Posted,61738.85
+    "XXXXXX2798",8/13/2020,,"YELM GYMNASTICS YELM WA US POS  029582 ************0199 59029582",30.00,,Posted,61757.54
+    "XXXXXX2798",8/13/2020,,"MCDONALD'S F2206 LACEY WA US POS  096238 ************0199 1",7.25,,Posted,61787.54
+    "XXXXXX2798",8/13/2020,,"MCDONALD'S F1188 OLYMPIA WA US POS  054106 ************0199 1",5.12,,Posted,61794.79
+    "XXXXXX2798",8/12/2020,,"THE PATHFINDER S 317-7918777 IN US POS  073159 ************0199 71004114",25.88,,Posted,61799.91
+    "XXXXXX2798",8/12/2020,,"RALPH'S THRIFTWA OLYMPIA WA US POS  005780 ************0199 1",28.61,,Posted,61825.79
+    "XXXXXX2798",8/12/2020,,"RALPH'S THRIFTWA OLYMPIA WA US POS  005681 ************0199 1",13.37,,Posted,61854.40
+    "XXXXXX2798",8/12/2020,,"FAR EAST OLYMPIA WA US POS  098441 ************0199 21660001",16.97,,Posted,61867.77
+    "XXXXXX2798",8/12/2020,,"MCDONALD'S F4368 OLYMPIA WA US POS  010386 ************0199 1",6.33,,Posted,61884.74
+    "XXXXXX2798",8/11/2020,,"VICS PIZZERIA - OLYMPIA WA US POS  084812 ************0199 00000000",4.83,,Posted,61891.07
+    "XXXXXX2798",8/11/2020,,"LA FITNESS 949-255-7200  CA US POS  067334 ************0199 00000000 - Recurring",393.84,,Posted,61895.90
+    "XXXXXX2798",8/11/2020,,"LA FITNESS 949-255-7200  CA US POS  070707 ************0199 00000000 - Recurring",21.87,,Posted,62289.74
+    "XXXXXX2798",8/11/2020,,"FAR EAST OLYMPIA WA US POS  042990 ************0199 21660001",12.33,,Posted,62311.61
+    "XXXXXX2798",8/11/2020,,"MCDONALD'S F1188 OLYMPIA WA US POS  095603 ************0199 1",1.09,,Posted,62323.94
+                </code>
+            </pre>
+            </figure>
+        </div>
+
+        <div class="col-6">
+            <figure style="text-align: left; margin: 5%;">
+                <figcaption>Post-Formatted</figcaption>
+                <pre>
+                <code class="" contenteditable spellcheck="false">
+    8/1/2020,ADOBE STOCK,32.81,0
+    8/1/2020,MCDONALDS,4.24,0
+    7/31/2020,INTEREST PAID,,3.28
+    7/31/2020,FREDMEYER,20.78,0
+    7/31/2020,FRED M,27.14,0
+    7/31/2020,FREDMEYER,119.23,0
+    7/31/2020,RALPH'S THRIFTWA,6.13,0
+    7/31/2020,MOUNTAIN HEALTH,117,0
+    7/31/2020,BLUEPEARL TACOMA,730.32,0
+    7/31/2020,ALBERTSONS,37.17,0
+    7/31/2020,ALBERTSONS,14.76,0
+    7/31/2020,JIMMY JOHNS,18.14,0
+    7/31/2020,BAYVIEW THRIFTWA,11.48,0
+    7/31/2020,CHEVRON,15.16,0
+    7/30/2020,FEDEX OFFIC,9.18,0
+                </code>
+            </pre>
+            </figure>
+        </div>
+    </div>
+
+    <!--Data Analysis-->
+    <h1 style="text-align: right; margin: 5%;">Data Analysis</h1>
+    <p style="text-align: right; margin: 5%;">After being parsed the data is analyzed by sorting and summing it into groups depending on catagorizing data into dates or names of purchases. This is done in the most clear way possible using Lists and Hashmaps. The code block shows the method of selecting the top n values for a data set.</p>
+
+    <figure style="text-align: left; margin: 5%;">
+        <figcaption>Top Values</figcaption>
+        <pre>
+        <code class="" contenteditable spellcheck="false">
+    public static HashMap<String, Double> topValues(HashMap<String, Double> sums, int places){
+
+        //This is definlty not the most effiecent solution but its the one I came up with using code that I understand I should fix this in the future or ask someone for help
+
+        HashMap<String, Double> ranks = new HashMap();
+
+        for (int i = 0; i < places; i++){
+
+            double max = 0;
+            String maxentry = null;
+
+            for (String entry : sums.keySet()){
+                if(sums.get(entry) > max){
+                    max = sums.get(entry);
+                    maxentry = entry;
+                }
+            }
+
+            ranks.put(maxentry, max);
+            sums.remove(maxentry);
+        }
+
+        return ranks;
+        </code>
+    </pre>
+    </figure>
+
+    <!--Basic Display-->
+    <h1 style="text-align: left; margin: 5%;">Basic Display</h1>
+    <p style="text-align: left; margin: 5%;">The display is built from JSwing and shows the top n values of either dates of spending or the names of purchases. The code for the basic UI is shown here:</p>
+
+    <div class="col-12-mid">
+        <figure style="text-align: center; margin: 5%;">
+            <figcaption>Top Values</figcaption>
+            <pre>
+            <code style="margin: auto;" contenteditable spellcheck="false">
+        public static void main(String[] argv, HashMap<String, Double> topValues) {
+            JFrame f = new JFrame();
+
+            f.setSize(400, 300);
+            
+            double[] values = new double[topValues.size()];
+            String[] names = new String[topValues.size()];
+            
+            int index = 0;
+
+            for (String entry: topValues.keySet()){
+                
+                //Format Decimal
+                
+                DecimalFormat df = new DecimalFormat("#.00");
+
+                //Dummy Variable
+
+                double dummy = topValues.get(entry);
+
+                values[index] = Double.parseDouble(df.format(dummy));
+                names[index] = entry;
+                index++;
+            }
+
+            f.getContentPane().add(new GUI(values, names, "Prices"));
+
+            WindowListener wndCloser = new WindowAdapter() {
+                public void windowClosing(WindowEvent e) {
+                System.exit(0);
+                }
+            };
+            f.addWindowListener(wndCloser);
+            f.setVisible(true);
+            }
+            </code>
+        </pre>
+        </figure>
+    </div>
+
+    <div class="col-6">
+      <figure style="text-align: left;">
+        <h>Github</h>
+        <pre>
+        <code contenteditable spellcheck="false">
+You can check out the full code at my Github here: https://github.com/Birdbh/Credit-Card-Data
+          </code>
+        </code>
+      </pre>
+    </figure>
+  </div>
+
+    <div class="col-12">
+        <img style="max-width: 100%;"src="Dategraph.png" alt="">
+    </div>
+
+
+    <!--End Navigation-->
+
+    <!--Start Fixed Background IMG-->
+
+    <!--End Fixed Background IMG-->
+
+    <!--Start Three Column Section-->
+
+    <!--End Three Column Section-->
+
+    <!--Start Jumbotron-->
+
+    <div style="margin-top: 10%;" class="jumbotron py-5 mb-0">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+            <h4>Looking For a Employee who is Passionate, Motivated, and Independent</h4>
+          </div>
+  
+          <div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+            <a href="mailto:birdlkjlkj123@gmail.com" class="btn btn-primary btn-lg">Contact Me Today</a>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+
+    <!--End Jumbotron-->
+
+    <!--Start Footer-->
+
+    <!--End Footer-->
+
+    <!--Start Socket-->
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- Bootstrap 4.5 JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+
+  </body>
+</html>

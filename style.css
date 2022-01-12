@@ -1,0 +1,119 @@
+/*Body*/
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971
+}
+
+/*Top Bar*/
+.top-bar {
+    background-color: #7dd3d3;
+    height: 3.5rem;
+    padding: 1rem 1rem;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.top-bar p {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+/*Nav Bar*/
+.navbar {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .nav-item {
+    padding: 0.5rem;
+  }
+  
+  .nav-link {
+    color: #0099ff! important;
+  }
+  
+  .nav-link.active,
+  .nav-link {
+    color: #0099ff! important;
+  }
+
+/*Fixed Background*/
+
+.fixed-background {
+  padding: 10rem 0;
+  overflow: hidden;
+  background-image: url('Fixed (2).png');
+  position: relative;
+
+}
+
+.fixed-background-competition{
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  padding: 10rem 0;
+  overflow: hidden;
+  background-image: url('Competition.png');
+  position: relative;
+}
+
+/*Form*/
+
+.form-row {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.center-form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*Programming paragraphs*/
+.para {
+  text-align: center; 
+  margin-left: 25%; 
+  margin-right: 30%; 
+  margin-top: 5%;
+}
+
+/*Programming code in page*/
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display:flow-root;
+  padding: auto;
+  text-align: left;
+  width:max-content;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+/*FruitTree*/
+
+.Tree {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
